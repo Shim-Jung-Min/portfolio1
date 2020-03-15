@@ -1,0 +1,24 @@
+@charset utf-8;
+@import url("reset.css");
+@font-face{font-family: nanumG; src: url(NanumBarunGothic.ttf);}
+
+/*lecruset detail.css*/
+
+body{width: 100%; background: #B89A85;}
+span{font-family: nanumG; color: #000; font-size: 16px; text-decoration: none;}
+#m_menu{position: fixed; width: 10%; height: 100%; background: #E1D0C2;            
+}
+#m_menu span{display: block; padding: 20px;}
+#m_menu span.m{background: #E1D0C2; font-weight: bold;}
+#m_menu span.m.on{background: #B89A85;}
+#m_menu ul span{background: #B89A85; padding-left: 20px;}
+#m_menu li ul{display: none;background: #B89A85;}
+#m_menu li ul li{padding: 10px 0;}
+#m_menu li ul li span{height: 200px; background: url(../images/le_cruset1920.png) no-repeat 50% 0; background-size: contain;} 
+#m_menu li:nth-of-type(2) ul li span{height: 200px; background: url(../images/le_cruset768.png) no-repeat 50% 0; background-size: contain;}
+#m_menu li:nth-of-type(3) ul li span{height: 200px; background: url(../images/le_cruset375.png) no-repeat 50% 0; background-size: contain;}
+#m_menu li:nth-of-type(4) ul li span{height: 200px; background: url(../images/le_cruset_landing.png) no-repeat 50% 0; background-size: contain;}
+#m_menu li ul.on{display: block;}
+section{display: none; position: absolute; right: 0; width: 90%; background: #B89A85;}
+section img{display: block; margin: 0 auto;}
+section.on{display: block;}
